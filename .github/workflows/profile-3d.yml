@@ -22,3 +22,15 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
 
+      - name: Move generated files
+        run: |
+          mkdir -p results/3D-Contrib
+          mv ./.github/actions/github-profile-3d-contrib/dist/output/* results/3D-Contrib/ || echo "No files generated"
+
+      - name: Commit and push 3D Contrib
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add results/3D-Contrib/
+          git commit -m "chore: update 3D Contrib" || echo "No changes to commit"
+          git push
