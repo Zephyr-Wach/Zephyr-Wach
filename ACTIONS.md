@@ -58,6 +58,9 @@
 - **来源**：[abozanona/pacman-contribution-graph](https://github.com/abozanona/pacman-contribution-graph)
 - **版本**：v1.0.10.2
 - **本地路径**：`.github/actions/pacman-contribution-graph`
+- - **来源**：[crazy-max/ghaction-github-pages](https://github.com/crazy-max/ghaction-github-pages)
+- **版本**：v4.2.0
+- **本地路径**：`.github/actions/ghaction-github-pages`
 - 使用示例：
 
 ```html
