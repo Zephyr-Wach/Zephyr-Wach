@@ -13,6 +13,9 @@ jobs:
     timeout-minutes: 15
 
     steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
       - name: generate pacman-contribution-graph.svg
         uses: ./.github/actions/pacman-contribution-graph
         with:
