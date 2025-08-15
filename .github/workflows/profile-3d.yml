@@ -2,7 +2,7 @@ name: generate 3D Contrib
 
 on:
   schedule:
-    - cron: "0 0 * * *"
+    - cron: "0 0 * * *"  # 每天 0 点运行
   workflow_dispatch:
 
 jobs:
@@ -16,16 +16,21 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Install dependencies
+      - name: Install Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+
+      - name: Build 3D Contrib
         run: |
           cd ./.github/actions/github-profile-3d-contrib
           npm ci
+          npm run build
 
-      - name: generate 3D Contrib
-        uses: ./.github/actions/github-profile-3d-contrib
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          USERNAME: ${{ github.repository_owner }}
+      - name: Run 3D Contrib
+        run: |
+          cd ./.github/actions/github-profile-3d-contrib
+          node dist/index.js --username ${{ github.repository_owner }}
 
       - name: Move generated files
         run: |
