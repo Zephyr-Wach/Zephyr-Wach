@@ -44,8 +44,7 @@
 
 - **来源**：[yoshi389111/github-profile-3d-contrib](https://github.com/yoshi389111/github-profile-3d-contrib)
 - **版本**：v0.9.0
-- **本地路径**：`.github/actions/github-profile-3d-contrib-0.9.0`
-- **说明**：用于生成贡献图 Breakout 动画 SVG。已本地化，保留 MIT LICENSE。
+- **本地路径**：`.github/actions/github-profile-3d-contrib`
 - 使用示例：
 
 ```html
@@ -56,10 +55,9 @@
 
 ## ## 
 
-- **来源**：[]()
-- **版本**：
-- **本地路径**：`.github/actions/`
-- **说明**：用于生成贡献图 Breakout 动画 SVG。已本地化，保留 MIT LICENSE。
+- **来源**：[abozanona/pacman-contribution-graph](https://github.com/abozanona/pacman-contribution-graph)
+- **版本**：v1.0.10.2
+- **本地路径**：`.github/actions/pacman-contribution-graph`
 - 使用示例：
 
 ```html
@@ -70,24 +68,9 @@
 
 ## ## 
 
-- **来源**：[]()
-- **版本**：
-- **本地路径**：`.github/actions/`
-- **说明**：用于生成贡献图 Breakout 动画 SVG。已本地化，保留 MIT LICENSE。
-- 使用示例：
-
-```html
-
-```
-
----
-
-## ## 
-
-- **来源**：[]()
-- **版本**：
-- **本地路径**：`.github/actions/`
-- **说明**：用于生成贡献图 Breakout 动画 SVG。已本地化，保留 MIT LICENSE。
+- **来源**：[nberlette/sneks](https://github.com/nberlette/sneks)
+- **版本**：v0.0.18
+- **本地路径**：`.github/actions/sneks`
 - 使用示例：
 
 ```html
