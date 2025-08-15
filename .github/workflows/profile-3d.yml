@@ -25,7 +25,7 @@ jobs:
       - name: Move generated files
         run: |
           mkdir -p results/3D-Contrib
-          mv output/* results/3D-Contrib
+          mv ./profile-3d-contrib/* results/3D-Contrib/ || echo "No files generated"
 
       - name: Configure git
         run: |
