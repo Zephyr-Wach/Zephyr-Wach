@@ -16,16 +16,16 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: generate SVG
+      - name: generate breakout SVG
         uses: ./.github/actions/github-breakout
         with:
           github_username: ${{ github.repository_owner }}
 
       - name: Move generated SVGs
         run: |
-          mkdir -p breakout
-          mv output/light.svg breakout/breakout-light.svg
-          mv output/dark.svg breakout/breakout-dark.svg
+          mkdir -p results/breakout
+          mv output/light.svg results/breakout/breakout-light.svg
+          mv output/dark.svg results/breakout/breakout-dark.svg
 
       - name: Configure git
         run: |
@@ -34,6 +34,6 @@ jobs:
 
       - name: Commit and push SVGs
         run: |
-          git add breakout/breakout-light.svg breakout/breakout-dark.svg
+          git add results/breakout/breakout-light.svg results/breakout/breakout-dark.svg
           git commit -m "chore: update breakout SVGs" || echo "No changes to commit"
           git push
