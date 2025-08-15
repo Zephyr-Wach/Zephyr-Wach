@@ -1,0 +1,39 @@
+name: generate 3D Contrib
+
+on:
+  schedule:
+    - cron: "0 0 * * *"  # 每天 0 点运行
+  workflow_dispatch:
+
+jobs:
+  generate-3d-contrib:
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: generate 3D Contrib
+        uses: ./.github/actions/github-profile-3d-contrib-0.9.0
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+
+      - name: Move generated files
+        run: |
+          mkdir -p images/3d-contrib
+          mv ./.github/actions/github-profile-3d-contrib-0.9.0/dist/output/* images/3d-contrib/
+
+      - name: Configure git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Commit and push 3D Contrib
+        run: |
+          git add images/3d-contrib/
+          git commit -m "chore: update 3D Contrib" || echo "No changes to commit"
+          git push
