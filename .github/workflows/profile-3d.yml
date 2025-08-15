@@ -18,5 +18,7 @@ jobs:
 
       - name: generate 3D-Contrib SVG
         uses: ./.github/actions/github-profile-3d-contrib
-        with:
-          github_username: ${{ github.repository_owner }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+
