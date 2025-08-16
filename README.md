@@ -8,9 +8,6 @@
   </picture>
 </div>
 <br>
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Zephyr-Wach&theme=transparent&show_icons=true&bg_color=00000000" alt="Anurag's GitHub stats" style="width: 90%; max-width: 600px; min-width: 300px;" />
-</div>
 
 ✨ Skills & Interests: Python, Java + Frontend | Coding, Open Source, Security, Games
 
