@@ -21,9 +21,6 @@
   </picture>
 </div>
 <br>
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Zephyr-Wach&theme=transparent&show_icons=true&bg_color=00000000" alt="Anurag's GitHub stats" style="width: 90%; max-width: 600px; min-width: 300px;" />
-</div>
 ```
 
 <div align="center">
@@ -34,9 +31,6 @@
   </picture>
 </div>
 <br>
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Zephyr-Wach&theme=transparent&show_icons=true&bg_color=00000000" alt="Anurag's GitHub stats" style="width: 90%; max-width: 600px; min-width: 300px;" />
-</div>
 
 ---
 
@@ -48,34 +42,28 @@
 - 使用示例：
 
 ```html
-
+<div align="center">
+    <img src="results/3D-Contrib/profile-gitblock.svg" style="width: 90%; max-width: 600px; min-width: 300px;" />
+    <img src="results/3D-Contrib/profile-green-animate.svg" style="width: 90%; max-width: 600px; min-width: 300px;" />
+    <img src="results/3D-Contrib/profile-green.svg" style="width: 90%; max-width: 600px; min-width: 300px;" />
+    <img src="results/3D-Contrib/profile-night-green.svg" style="width: 90%; max-width: 600px; min-width: 300px;" />
+    <img src="results/3D-Contrib/profile-night-rainbow.svg" style="width: 90%; max-width: 600px; min-width: 300px;" />
+    <img src="results/3D-Contrib/profile-night-view.svg" style="width: 90%; max-width: 600px; min-width: 300px;" />
+    <img src="results/3D-Contrib/profile-season-animate.svg" style="width: 90%; max-width: 600px; min-width: 300px;" />
+    <img src="results/3D-Contrib/profile-season.svg" style="width: 90%; max-width: 600px; min-width: 300px;" />
+    <img src="results/3D-Contrib/profile-south-season-animate.svg" style="width: 90%; max-width: 600px; min-width: 300px;" />
+    <img src="results/3D-Contrib/profile-south-season.svg" style="width: 90%; max-width: 600px; min-width: 300px;" />
+</div>
 ```
-
----
-
-## ## 
-
-- **来源**：[abozanona/pacman-contribution-graph](https://github.com/abozanona/pacman-contribution-graph)
-- **版本**：v1.0.10.2
-- **本地路径**：`.github/actions/pacman-contribution-graph`
-- - **来源**：[crazy-max/ghaction-github-pages](https://github.com/crazy-max/ghaction-github-pages)
-- **版本**：v4.2.0
-- **本地路径**：`.github/actions/ghaction-github-pages`
-- 使用示例：
-
-```html
-
-```
-
----
-
-## ## 
-
-- **来源**：[nberlette/sneks](https://github.com/nberlette/sneks)
-- **版本**：v0.0.18
-- **本地路径**：`.github/actions/sneks`
-- 使用示例：
-
-```html
-
-```
+<div align="center">
+  <img src="results/3D-Contrib/profile-gitblock.svg" style="width: 90%; max-width: 600px; min-width: 300px;" />
+  <img src="results/3D-Contrib/profile-green-animate.svg" style="width: 90%; max-width: 600px; min-width: 300px;" />
+  <img src="results/3D-Contrib/profile-green.svg" style="width: 90%; max-width: 600px; min-width: 300px;" />
+  <img src="results/3D-Contrib/profile-night-green.svg" style="width: 90%; max-width: 600px; min-width: 300px;" />
+  <img src="results/3D-Contrib/profile-night-rainbow.svg" style="width: 90%; max-width: 600px; min-width: 300px;" />
+  <img src="results/3D-Contrib/profile-night-view.svg" style="width: 90%; max-width: 600px; min-width: 300px;" />
+  <img src="results/3D-Contrib/profile-season-animate.svg" style="width: 90%; max-width: 600px; min-width: 300px;" />
+  <img src="results/3D-Contrib/profile-season.svg" style="width: 90%; max-width: 600px; min-width: 300px;" />
+  <img src="results/3D-Contrib/profile-south-season-animate.svg" style="width: 90%; max-width: 600px; min-width: 300px;" />
+  <img src="results/3D-Contrib/profile-south-season.svg" style="width: 90%; max-width: 600px; min-width: 300px;" />
+</div>
