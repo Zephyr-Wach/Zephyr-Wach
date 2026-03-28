@@ -10,5 +10,3 @@
 <br>
 
 ✨ Skills & Interests: Python, Java + Frontend | Coding, Open Source, Security, Games
-
-📖 Check out my blog: [我的博客](http://mpbs.tech/)
